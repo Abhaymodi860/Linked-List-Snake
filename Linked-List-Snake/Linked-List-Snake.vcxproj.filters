@@ -173,5 +173,8 @@
     <ClInclude Include="include\UI\UIElement\RectangleShapeView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Player\Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
