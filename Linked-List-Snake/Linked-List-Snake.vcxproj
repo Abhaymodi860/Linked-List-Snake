@@ -133,7 +133,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="include\Player\PlayerService.h" />
+    <ClCompile Include="include\Player\SnakeController.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\Player\PlayerService.cpp" />
+    <ClCompile Include="source\Player\SnakeController.cpp" />
     <ClCompile Include="source\Time\TimeService.cpp" />
     <ClCompile Include="source\UI\Credits\CreditsScreenUIController.cpp" />
     <ClCompile Include="source\UI\Instructions\InstructionsScreenUIController.cpp" />
