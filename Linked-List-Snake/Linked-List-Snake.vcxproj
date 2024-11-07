@@ -164,6 +164,7 @@
     <ClInclude Include="include\Level\LevelNumber.h" />
     <ClInclude Include="include\Level\LevelService.h" />
     <ClInclude Include="include\Level\LevelView.h" />
+    <ClInclude Include="include\Player\BodyPart.h" />
     <ClInclude Include="include\Player\Direction.h" />
     <ClInclude Include="include\Time\TimeService.h" />
     <ClInclude Include="include\UI\Credits\CreditsScreenUIController.h" />
@@ -188,6 +189,7 @@
     <ClInclude Include="source\Level\LevelModel.cpp" />
     <ClInclude Include="source\Level\LevelService.cpp" />
     <ClInclude Include="source\Level\LevelView.cpp" />
+    <ClInclude Include="source\Player\BodyPart.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
