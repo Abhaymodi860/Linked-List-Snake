@@ -203,5 +203,8 @@
     <ClInclude Include="source\Element\Obstacle.cpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Element\ElementService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
