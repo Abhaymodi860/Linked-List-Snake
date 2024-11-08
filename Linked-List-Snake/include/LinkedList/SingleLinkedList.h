@@ -1,7 +1,6 @@
 #pragma once
 #include <SFML/System/Vector2.hpp>
-#include "Player/Direction.h"
-#include "Node.h"
+#include "LinkedList/Node.h"
 
 namespace LinkedList
 {
@@ -17,6 +16,8 @@ namespace LinkedList
 		Direction default_direction;
 
 		Node* createNode();
+		sf::Vector2i getNewNodePosition(Node* reference_node);
+
 
 	public:
 		SingleLinkedList();
@@ -24,5 +25,14 @@ namespace LinkedList
 
 		void initialize(float width, float height, sf::Vector2i position, Direction direction);
 		void render();
+
+		void insertNodeAtTail();
+		void removeNodeAtHead();
+		void removeAllNodes();
+		void updateNodePosition();
+		void updateNodeDirection(Direction direction_to_set);
+
+		bool processNodeCollision();
+		Node* getHeadNode();
 	};
 }
