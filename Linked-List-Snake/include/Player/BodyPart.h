@@ -3,7 +3,8 @@
 #include "UI/UIElement/ImageView.h"
 #include "Direction.h"
 
-namespace Player {
+namespace Player
+{
 	class BodyPart
 	{
 	protected:
@@ -11,6 +12,7 @@ namespace Player {
 
 		sf::Vector2i grid_position;
 		Direction direction;
+		Direction previous_direction;
 
 		float bodypart_width;
 		float bodypart_height;
@@ -36,8 +38,13 @@ namespace Player {
 		void render();
 
 		Direction getDirection();
-		void setDirection(Direction new_direction);
+		Direction getPreviousDirection();
+		void setDirection(Direction direction);
 		sf::Vector2i getPosition();
+		void setPosition(sf::Vector2i position);
+
 		sf::Vector2i getNextPosition();
+		sf::Vector2i getPrevPosition();
+
 	};
 }
